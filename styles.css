@@ -1,3 +1,80 @@
-div{
-    color:aquamarine;
+* {
+    font-family: "Lucida Sans", sans-serif;
+    /* outline: 2px solid brown; */
+}
+body {
+    background-color:antiquewhite;
+}
+div {
+    color:brown;
+}
+
+.list {
+    margin: 30px;
+}
+.ingredients .list {
+    color:brown;
+}
+
+.steps .list {
+    color:blueviolet;
+}
+
+.extra {
+    color:darksalmon;
+}
+
+#title {
+    color:aliceblue;
+    background-color:lightcoral;
+    font-family:cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.subsection {
+    color:firebrick;
+    font-family:serif;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.subsection.ingredients{
+    background-color: lightpink;
+    
+}
+.subsection.steps{
+    background-color: plum;
+}
+
+img{
+    height: 500px;
+    width: auto;
+    margin: 20px;
+}
+
+#button{
+    background-color:powderblue;
+    padding: 10px;
+    border: 2px solid blue;
+    margin: 30px;
+    width: auto;
+    display: inline-block;
+  
+}
+.welcome-title{
+    background-color: indianred;
+    color: aliceblue;
+    margin: 40px 0px 20px 0px;
+    padding: 30px;
+}
+
+.recipe-list{
+    background-color:lightsalmon;
+    padding: 30px;
+    margin: 20px 0px 20px 0;
+}
+.subtitle{
+    margin: 20px;
 }
